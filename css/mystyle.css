@@ -5,22 +5,24 @@
 body {
 	font-family: "arial";
 	margin: 0;  
-	background: #008080; 
+	background: #cc0066; 
 }
 
 .mainContainer {
 	margin: 10px;
+	margin-left: 14px;
 	width: 98%;
 	height: 1000px;
-	background: #D8BFD8	; 
-	padding-top: 10px;
+	background: black; 
+	/*padding-top: 10px;*/
+	padding-top: 0;
 }
 
 .banner {
 	
 	height: 250px;
-	background: white;
-	margin: 10px 20px;
+	background: black;
+	/*margin: 10px 20px;*/
 	align-content: center;
 	border: 1px white solid;
 
@@ -29,7 +31,7 @@ body {
 
 .banner h1{
 	font-size: 50px;
-	color: #00008B;
+	color: #00ff00;
 	text-align: center;
 	margin: auto; 
 	padding-top: 90px; 
@@ -38,15 +40,18 @@ body {
 .content{
 	background: #F0DCF0; 
 	height: 700px; 
-	margin: 10px 200px; 
+	margin: 10px 20px; 
 }
 
 .input{
-	background: #FA8072; 
+	background: black; 
 	height: 350px;
 	border-bottom: 1px solid green; 
 	padding: 30px; 
 	text-align: center;
+	border: 1px white solid;
+	color: #00ff00; 
+
 }
 
 #inputText{
@@ -68,10 +73,12 @@ body {
   	border: 2px solid #f44336;
 }
 .output{
-	background: #FA8072; 
+	background: black; 
 	height: 350px;
 	padding: 30px; 
 	text-align: center;
+	border: 1px white solid;
+	color: #00ff00;
 }
 
 #outputlbl{
