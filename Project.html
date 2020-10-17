@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/mystyle.css">
-    <title>Project</title>
+    <title>Maria Adams Page</title>
 </head>
 <body>
 
@@ -22,20 +22,28 @@
 				<li><a href="#">Contact</a></li>
 			  </ul>
 			  
+        </div>
+        
+        <div class="gamenav">
+			<ul>
+                <li class="current"><a href="#">TMS</a></li>
+                <li><a href="Survival.html">Survival Island </a></li> 
+        		<li><a href="Other.html">Other Projects</a></li>
+			  </ul>
+			  
 		</div>
 
 		<div class="content">
-
 			<div class="input">
 
 
 				<ul>
                     <li> <h2>Task Monitoring System, TMS</h2>   </li>
                         <h3>Overview</h3>
-                                Let me take you through our senior project adventure. First of all, I am thankful to have been grouped with two
+                                Let me take you through our year long senior project adventure. First of all, I am thankful to have been grouped with two
                                 amazing students, Chris Miller and Archan Rupela who are the epitome of fun and reliability. This project
                                 which we call Task Management System or TMS was developed to support Sea Discovery Center public aquarium 
-                                located in Poulsbo. The Sea Discovery Center is a public aquarium built to educate its community about marine life
+                                located in Poulsbo. The <a href="https://sea.wwu.edu/ " target="_blank"> Sea Discovery Center </a>is a public aquarium built to educate its community about marine life
                                 and its environment. Our mission as a group is to create a tool that would help the aquarium personnel maintain 
                                 the water conditions in the tanks.                                
                                 <br><br>
@@ -49,18 +57,70 @@
                                 cold for the type of fish that live in the tank. Once the system detects a temperature that is tagged as 'critical'
                                 the system must send an alert notification through email and a text message to the personnel at the Sea Discover
                                 to perform appropriate action and mostly save the fish from imminent death. <br>
-                            <div class="image">
-                                <img src="./img/map.PNG" alt="map" width="700px" height="200px">
-
+                            <div class = "image-design">
+                                <img src="./img/map.PNG" alt="map" width="600px" height="200px">
                             </div>
-                                
-                        <h3>Implementation</h3>
-                                
+                            <br>
 
-                    <li>Project 2</li>
-                    <li>Project 3</li>
-					
-				</ul>
+                            <div class="features">
+                                <h3>Main Features</h3>
+
+                                <ul>
+                                    <li>Broadcast </li>
+                                    Automated email that is sent directly to the personnel whose email address is registered to the system to
+                                    notify about a critical reading detected or received during active monitoring process.  
+                                    <li>Sound Alert</li>   
+                                    An audible sound that is triggered when a critical status has been detected. This is directly experienced 
+                                    through the desktop application installed.                    
+                                    
+                                </ul>
+                            </div>
+                           
+                           
+                        <h3>Tools and Implementation</h3>   
+                                Just like cooking, we need to know and prepare the tools we will use to implement this software. Let me break
+                                down the implementation into three chunks: UI, framework, and back-end. First, we used Swing GUI toolkit 
+                                to build each component in the UI, which include the login page and dashboard page. Consequently, we used MVC
+                                or Model-view-controller framework to allow separation of components coupled with OOP. We were able to independently
+                                work on each each module we assigned ourselves with allowing minimal effect on the overall program. 
+                                Our teammate from Poulsbo, Josh, helped us set up a web server where we could scrape the pi-sensor data directly from the cyber range.
+                                A python script using beautiful soup library was used to pull the data from the server. Lastly, back-end integration started as soon
+                                as the data retrieval has been established and both features have been successfully implemented. A python script using smpt library
+                                is used for SMPT protocol to perform the emailing process. We developed the program in intelliJ utilizing JDK and its standard libraries.
+                                <br>
+                                <br>
+                        
+                         <div class="summary">
+                            <h3>Summary of Technology and Documentation used</h3>
+                                <ul>
+                                    <li>Verion Control: Gitlab </li>
+                                    <li>IDE: intelliJ </li>
+                                    <li>Languages: Java and Python</li>
+                                     <li>Framework: MVC</li>
+                                     <li>Libraries: Swing GUI toolkit, Javax Swing, smpt, beautiful soup</li> 
+                                     <li>Sofware Requirement Specification, SRS</li>
+                                     <li>Usecases, UML, Sprint, Functional Testing, Unit Testing, Integration Testing </li>
+                                </ul>
+                         </div> 
+
+                         <h3>Output</h3>
+
+                         <div class="output">
+                            <div class="image">
+                                <h2>Login</h2>
+                                <img src="./img/login.PNG" alt="login" width="300px" height="200px">
+                            </div>
+                            <div class="image">
+                                <h2>Status report</h2>
+                                <img src="./img/statusreport.PNG" alt="login" width="300px" height="200px">
+                            </div>
+                            <div class="image">
+                                <h2>Email Notification</h2>
+                                <img src="./img/email.PNG" alt="login" width="300px" height="200px">
+                            </div>
+                         </div>
+
+                         
 				
 			</div>
 			
