@@ -229,7 +229,7 @@ p:hover{
 }
 
 
-.frontphoto, .thankyou{
+.frontphoto{
 	
 	width: 100%;
 	height: 300px;
@@ -237,9 +237,9 @@ p:hover{
 }
 
 .thankyou{
-	max-width: 500px;
+	width: 100%;
+	max-width: 400px;
 }
-
 
 .tms-design{
 	width: 100%;
